@@ -1,0 +1,109 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilo para Cabeçalho 1 */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para Cabeçalho 2 */
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-left: 4px solid #2980b9;
+}
+
+/* Estilo para Cabeçalho 3 */
+h3 {
+    color: #8e44ad;
+    margin-top: 20px;
+}
+
+/* Estilo para os parágrafos */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilo para imagens e legendas */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  
+  .menu {
+    list-style: none; /* Remove bullets da lista */
+    border: 1px solid #c0c0c0;
+    float: left;
+  }
+  
+  .menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0; /* Separador de itens */
+  }
+  
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+  }
+  
+  .menu li a:hover {
+    background: #333;
+    color: #fff;
+    box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+  }
+  .menu li ul {
+    position: absolute;
+    top: 25px; /* Posiciona o submenu abaixo do item principal */
+    left: 0;
+    background-color: #fff;
+    display: none; /* Esconde o submenu inicialmente */
+  }
+  
+  .menu li:hover ul, .menu li.over ul {
+    display: block; /* Exibe o submenu ao passar o mouse */
+  }
+  
+  .menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px; /* Largura dos itens do submenu */
+  }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequeno Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho 1 -->
+    <h1>Explorando o Mundo da Tecnologia</h1>
+    <p>A tecnologia evolui a um ritmo acelerado, impactando diretamente nossas vidas. Desde a comunicação até a saúde, suas inovações têm redefinido o que é possível.</p>
+    <p>Este site apresenta alguns dos aspectos mais marcantes da tecnologia moderna, mostrando como ela está moldando o futuro.</p>
+
+    <!-- Imagem 1 -->
+    <figure>
+        <img src="imagem1.jpg" alt="Tecnologia Moderna">
+        <figcaption>A revolução tecnológica está em todos os lugares.</figcaption>
+    </figure>
+
+    <!-- Cabeçalho 2 -->
+    <h2>O Impacto da Tecnologia na Educação</h2>
+    <p>As tecnologias digitais transformaram a educação, trazendo novas formas de aprender e ensinar. Plataformas de e-learning e ferramentas interativas proporcionam uma experiência de aprendizado mais rica e envolvente.</p>
+    <p>Alunos de todas as idades agora têm acesso a uma vasta gama de recursos educacionais, muitos dos quais gratuitos, promovendo a inclusão e a democratização do conhecimento.</p>
+
+    <!-- Cabeçalho 2 -->
+    <h2>Comunicação no Século XXI</h2>
+    <p>A comunicação evoluiu drasticamente com a internet e os dispositivos móveis. Redes sociais, aplicativos de mensagens e videochamadas tornaram-se parte do nosso dia a dia, permitindo que nos conectemos com o mundo instantaneamente.</p>
+    <p>Essas ferramentas não só encurtam distâncias, mas também permitem a troca de ideias e a colaboração em tempo real.</p>
+
+    <!-- Imagem 2 -->
+    <figure>
+        <img src="imagem2.jpg" alt="Comunicação Digital">
+        <figcaption>Conectando o mundo através da comunicação digital.</figcaption>
+    </figure>
+
+    <!-- Cabeçalho 1 -->
+    <h1>Inovações e o Futuro</h1>
+    <p>O futuro da tecnologia é brilhante e cheio de possibilidades. A inteligência artificial, a robótica e a internet das coisas prometem transformar ainda mais nossa maneira de viver e trabalhar.</p>
+    <p>Empresas e governos estão investindo fortemente em inovação para criar soluções que melhorem a vida das pessoas e tornem as cidades mais inteligentes.</p>
+
+    <!-- Cabeçalho 2 -->
+    <h2>Tecnologia na Saúde</h2>
+    <p>A área da saúde tem se beneficiado enormemente com as inovações tecnológicas. Diagnósticos mais precisos, tratamentos personalizados e cirurgias assistidas por robôs são apenas algumas das mudanças trazidas pela tecnologia.</p>
+    <p>Com a telemedicina, o acesso a cuidados médicos tornou-se mais fácil, especialmente em áreas remotas.</p>
+
+    <!-- Imagem 3 -->
+    <figure>
+        <img src="imagem3.jpg" alt="Saúde Tecnológica">
+        <figcaption>Avanços tecnológicos melhorando a saúde.</figcaption>
+    </figure>
+
+    <!-- Cabeçalho 2 -->
+    <h2>Avanços no Transporte</h2>
+    <p>O setor de transportes está passando por uma revolução com o surgimento de veículos autônomos, sistemas de transporte inteligente e carros elétricos. Essas inovações prometem reduzir o impacto ambiental e tornar as cidades mais eficientes.</p>
+    <p>Além disso, novas formas de mobilidade urbana, como bicicletas elétricas e scooters, estão mudando a maneira como nos deslocamos nas cidades.</p>
+
+    <!-- Cabeçalho 3 -->
+    <h3>O Cotidiano Digital</h3>
+    <p>No dia a dia, a tecnologia está presente em todos os lugares, desde os smartphones que usamos para trabalhar e socializar até as casas inteligentes que automatizam tarefas domésticas. Essa digitalização contínua torna nossas vidas mais convenientes e conectadas.</p>
+
+</body>
+</html>
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Dropdown Horizontal</title>
+  <!-- Incluindo o arquivo CSS externo -->
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">O que fazemos?</a>
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">SEO</a></li>
+          <li><a href="#">Design</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Links</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
